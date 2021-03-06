@@ -1,9 +1,12 @@
+---
+useMath: True
+---
 ## Inspiration
 The inspiration for this game came from the recent success of the Perseverance Rover that landed safely on Mars. The game teaches people about orbital physics in a very fun and engaging manner, also teaching them about real world maneuvers that are used to control satellites in orbit. Perseverance takes the help of the Mars Reconnaissance Orbiter to relay information to and from from mission control thus making the MRO an integral part of the success of the mission.
 ## What it does
 What this game basically does is simulate the experience of controlling the MRO satellite currently orbiting Mars. The first objective of the game is to convert your orbit around mars from an elliptical shape to as circular as possible and the second objective is to reduce the altitude of your orbit to a lower value but not too low otherwise the satellite will burn and crash in the atmosphere of Mars. The physics behind this game is pretty airtight and you can even ask for help by pressing 'H' on the start screen if you would like to become a tiny bit smarter in the field of orbital mechanics in just a minute of **sweet and sumptuous physics**.
 ## How we built it
-The game was built completely with python using the pygame module. The main law running the game is the law of gravitation with the help of which we calculated the supposed acceleration of the satellite due to attraction by Mars is calculated and appropriately the position of the satellite is changed (along with changing its linear velocity and angular velocity). ![Equation](http://www.sciweavers.org/tex2img.php?eq=F%3D%5Cfrac%7BG%2Am_1%2Am_2%7D%7Br%5E2%7D&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+The game was built completely with python using the pygame module. The main law running the game is the law of gravitation with the help of which we calculated the supposed acceleration of the satellite due to attraction by Mars is calculated and appropriately the position of the satellite is changed (along with changing its linear velocity and angular velocity). $$Yeah$$
 ## Challenges we ran into
 One of the biggest difficulties we faced was to incorporate the gravitational force in such a way that it does not attract the satellite too much that it crashes into mars immediately, or too less that the satellite achieves escape velocity as soon as the game starts. So after a few hours of trying and trying with random values, we narrowed the range down to the sweet spot and also figured that things would become much easier by assuming the mass of satellite to be unity instead of trying to use the actual mass of the satellite launched by NASA.
 ## What we learned
